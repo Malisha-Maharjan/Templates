@@ -1,0 +1,322 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.FirstPage .container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    padding: 25px 100px;
+}
+
+.logo {
+    background: url(images/logo-light.svg);
+    width: 32px;
+    height: 32px;
+}
+
+.FirstPage .container h2 {
+    font-size: 44px;
+    font-family:"IBM Plex Sans", sans-serif;
+    letter-spacing: 1px;
+    max-width: 500px;
+    color: #182538;
+    margin-top: 140px;
+    line-height: 60px;
+}
+
+.container-background {
+    background: url(/images/header-illustration-light.svg);
+    width: 1440px;
+    height: 324px;
+}
+
+.FirstPage .container p {
+    font-size: 20px;
+    font-family:"IBM Plex Sans", sans-serif;
+    max-width: 500px;
+    color: #6B7A90;
+    margin-top: 20px;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+}
+
+.FirstPage .container button {
+    margin-top: 30px;
+    max-width: 180px;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 10px;
+    background: #535FD7;
+    color: #fff;
+    text-decoration: none;   
+}
+
+.FirstPage .lights-toggle {
+    position: absolute;
+    top: 465px;
+    left: 400px;
+    font-size: 18px;
+    color: rgba(107,122,144,0.64);
+}
+
+.media .media1 {
+    position: absolute;
+    top: 10px;
+    background: url(images/hero-media-illustration-light.svg) no-repeat;
+    width: 733px; 
+    height: 749px;
+}
+
+.media .media2 {
+    top: -100px;
+
+}
+
+.product .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 300px;
+}
+
+.product .container h2 {
+    font-size: 38px;
+    color: #182538;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 600px;
+    line-height: 48px;
+}
+
+.product .container p {
+    color:#6B7A90;
+    font-size: 22px;
+    line-height: 30px;
+    max-width: 600px;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: lighter;
+}
+
+.product .product-media{
+    width: 800px;
+    height: 550px;
+    margin-top: 30px;
+}
+
+.product-container .product-media1{
+    position: absolute;
+    width: 728px; 
+    height: 458px;
+    margin-left: 400px;
+    margin-top: 40px;
+    background: url(/images/features-illustration-light.svg) no-repeat;
+    transform: translateX(-50%);
+}
+
+.product-container .product-container-body {
+    position: absolute;
+    background: url(images/features-box-light.svg);
+    width: 540px;
+    height: 370px;
+    margin-top: 50px;
+    margin-left: 130px;
+    transform: perspective(1000px) rotateY(10deg) translateY(2%);
+    box-shadow: 48px 16px 48px rgba(24,37,56,0.12);
+}
+
+.product-container .product-media2 {
+    background: url(/images/features-illustration-top-light.svg) no-repeat;
+    width: 728px;
+    height: 458px;
+    position: absolute;
+    margin-top: 45px;
+    margin-left: 35px;
+}
+
+.discover .discover1 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 468px;
+}
+
+.discover h3 {
+    font-size: 28px;
+    line-height: 34px;
+    color: #182538;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 600;
+}
+
+.discover h3::after {
+    content: '';
+    width: 32px;
+    height: 2px;
+    position: absolute;
+    left: 470px;
+    margin-top: 45px;
+    background: #E9EDF3;
+}
+
+.discover p {
+    max-width: 470px;
+    font-size: 18px;
+    line-height: 27px;
+    font-family: "Heebo", sans-serif;
+    color: #6B7A90;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.discover .discover2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 468px;
+}
+
+.discover .discover3 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 468px;
+}
+
+.discover1-media {
+    background: url(/images/feature-01-light.svg) no-repeat;
+    width: 48px;
+    height: 48px;
+    margin-left: -80px;
+    margin-bottom: -55px;
+}
+
+.discover2-media {
+    background: url(/images/feature-02-light.svg) no-repeat;
+    width: 48px;
+    height: 48px;
+    margin-left: -80px;
+    margin-bottom: -55px;
+}
+
+.discover3-media {
+    background: url(/images/feature-03-light.svg) no-repeat;
+    width: 48px;
+    height: 48px;
+    margin-left: -80px;
+    margin-bottom: -55px;
+}
+
+.discover::after {
+    content: '';
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    background: #E9EDF3;
+    margin-top: 30px;
+}
+
+.get {
+    position: relative;
+    height: 361px;
+    width: 100%;
+}
+
+.content {
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content h2 {
+    font-size: 38px;
+    line-height: 48px;
+    color: #182538;
+    font-family: "IBM Plex Sans", sans-serif;
+    margin-bottom: 35px;
+}
+
+.content p {
+    color: #6B7A90;
+    font-size: 25px;
+    max-width: 700px;
+    text-align: center;
+}
+
+.content button{
+    margin-top: 40px;
+    padding: 23px 70px;
+    font-size: 14px;
+    background: #535FD7;
+    color: #fff;
+    text-decoration: none;
+    z-index: 3;
+}
+
+.get .get-media{
+    position: relative;
+}
+
+.get-media1{
+    background: url(/images/cta-illustration-light.svg) no-repeat;
+    width: 1440px;
+    height: 263px;
+    position: absolute;
+    top: -150px;
+    z-index: 2;
+}
+
+.footer {
+    
+    height: 200px;
+    width: 100%;
+    background-color: hsl(216, 40%, 16%);
+    padding: 60px 100px;
+}
+
+.grid-footer{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    row-gap: 20px;
+    column-gap: 500px;
+    align-items: center;
+}
+
+.footer-logo {
+    background: url(images/logo-light.svg);
+    width: 32px;
+    height: 32px;
+}
+
+.copy-right {
+    font-size: 15px;
+    line-height: 20px;
+    color: #6B7A90;
+}
+
+.media-icons {
+    letter-spacing: 8px;
+    font-size: 20px;
+    color: #fff;
+    text-align: right;
+}
+.media-icons a{
+    color: #fff;
+    text-align: right;
+}
+
+.menu {
+    word-spacing: 5px;
+    text-align: right;
+}
+
+.menu a{
+    font-size: 15px;
+    text-decoration: none;
+    color: #6B7A90;
+}
+
+
